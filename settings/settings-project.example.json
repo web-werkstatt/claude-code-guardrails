@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "Drop diesen permissions-Block in dein .claude/settings.json (Projekt-Root). Bestehende Felder beibehalten/mergen.",
+  "permissions": {
+    "ask": [
+      "Bash(rm:*)"
+    ],
+    "deny": [
+      "Bash(rm:*)"
+    ]
+  }
+}
