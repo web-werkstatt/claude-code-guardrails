@@ -1,5 +1,10 @@
 # Claude Code Guardrails
 
+> ⚠️ **`permissions.ask` is NOT safe for destructive commands.**
+> Claude Code's sandbox auto-allow (default) silently bypasses `ask`
+> rules for Bash. Use `permissions.deny` for anything destructive.
+> [Evidence with doc quote + live reproduction →](./docs/sandbox-bypass-evidence.md)
+
 Defense-in-depth protection against destructive `rm` and `git` operations
 when working with [Claude Code](https://docs.claude.com/en/docs/claude-code).
 
