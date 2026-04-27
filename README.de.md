@@ -1,5 +1,7 @@
 # Claude Code Guardrails
 
+![Claude Code löscht Dateien lautlos — permissions.ask für Bash(rm:*) greift nicht bei Sandbox-Auto-Allow. Fix: permissions.deny plus PreToolUse-Regex-Hook.](./docs/images/sandbox-bypass-evidence.png)
+
 > ⚠️ **`permissions.ask` ist NICHT sicher für destruktive Befehle.**
 > Claude Codes Sandbox-Auto-Allow (Default) übergeht `ask`-Regeln für
 > Bash lautlos. Für alles Destruktive: `permissions.deny`.
