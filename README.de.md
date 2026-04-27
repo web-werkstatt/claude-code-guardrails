@@ -8,6 +8,9 @@ beim Arbeiten mit [Claude Code](https://docs.claude.com/en/docs/claude-code).
 > oder in einem Permission-Modus außer `default` läuft. Reale, nicht
 > wiederherstellbare Datenverluste sind möglich. Dieses Repo bietet
 > einen Zwei-Schichten-Schutz, der unabhängig vom Modus blockt.
+>
+> Doku-Zitat + Live-Reproduktion in
+> [`docs/sandbox-bypass-evidence.md`](./docs/sandbox-bypass-evidence.md).
 
 [English version](./README.md)
 

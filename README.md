@@ -7,6 +7,9 @@ when working with [Claude Code](https://docs.claude.com/en/docs/claude-code).
 > does *not* fire when the session runs with sandbox auto-allow or in any
 > non-default permission mode. Real, irrecoverable losses can occur. This
 > repo provides a two-layer fix that blocks regardless of mode.
+>
+> Documented quote + live reproduction in
+> [`docs/sandbox-bypass-evidence.md`](./docs/sandbox-bypass-evidence.md).
 
 [Deutsche Version](./README.de.md)
 
